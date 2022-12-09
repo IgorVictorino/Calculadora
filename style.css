@@ -1,0 +1,60 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+body {
+    background: linear-gradient(20deg, black 1%, gray 99%);
+    height: 100vh;  
+}
+
+
+table {
+    margin: 0 auto;
+    width: 360px;
+    height: 550px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    
+}
+
+#resposta{
+    width: 355px;
+    height: 80px;
+    background-color: white;
+    margin-bottom: -28px;
+    margin-top: -28px;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+}
+
+td {
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    width: 20px;
+}
+
+td:hover {
+border: 2px solid white;
+}
+
+input{
+    margin-top: 0;
+    width: 98%;
+    height: 90%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
